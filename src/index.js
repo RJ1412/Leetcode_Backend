@@ -17,7 +17,7 @@ const PORT = process.env.PORT;
 
 app.use(
     cors({
-      origin: "https://logicodefrontend1.onrender.com",
+      origin: "https://logicode-rj1412s-projects.vercel.app",
       credentials: true,
     })
   );
