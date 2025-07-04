@@ -241,7 +241,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "C:\\Users\\rahul\\Desktop\\projects\\JS\\New folder\\leetcode\\Backend\\src\\generated\\prisma",
+      "value": "D:\\projects\\JS\\New folder\\leetcode\\Backend\\src\\generated\\prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -259,7 +259,7 @@ const config = {
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "C:\\Users\\rahul\\Desktop\\projects\\JS\\New folder\\leetcode\\Backend\\prisma\\schema.prisma",
+    "sourceFilePath": "D:\\projects\\JS\\New folder\\leetcode\\Backend\\prisma\\schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
@@ -277,7 +277,7 @@ const config = {
     "db": {
       "url": {
         "fromEnvVar": "DATABASE_URL",
-        "value": "postgresql://neondb_owner:npg_8DzGeayxYS0Z@ep-tight-mountain-a173pyjy-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require"
+        "value": "postgresql://neondb_owner:npg_sY2lK3aFWeZb@ep-proud-voice-a1zdw87r-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
       }
     }
   },

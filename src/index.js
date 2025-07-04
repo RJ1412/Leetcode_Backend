@@ -17,7 +17,7 @@ const PORT = process.env.PORT;
 
 app.use(
     cors({
-      origin: "https://logicode-rj1412s-projects.vercel.app",
+      origin: "https://leetcode-frontend-three.vercel.app",
       credentials: true,
     })
   );
@@ -36,4 +36,3 @@ app.use("/api/v1/submission" , submissionRoutes)
 app.use("/api/v1/discuss" , discuss)
 app.use("/api/v1/playlist" , router)
 app.use("/api/v1/users" , userRoutes);
-
