@@ -160,7 +160,7 @@ export const getProblemById = async (req, res) => {
 
 export const updateProblem = async (req, res) => {
     const { id } = req.params;
-    const { title, description, difficulty, tags, examples, constraints, testcases, codeSnippets, referenceSolutions } = req.body;
+    const { title, description, difficuilty, tags, examples, constraints, testcases, codeSnippets, referenceSolutions } = req.body;
 
     if (req.user.role !== "ADMIN") {
         return res.status(403).json({ error: "You are not allowed to update a problem" });
@@ -218,7 +218,7 @@ export const updateProblem = async (req, res) => {
             data: {
                 title,
                 description,
-                difficulty,
+                difficuilty,
                 tags,
                 examples,
                 constraints,
@@ -285,7 +285,7 @@ export const getAllProblemsSolvedByUser = async (req, res) => {
       select: {
         id: true,
         title: true,
-        difficulty: true,
+        difficuilty: true,
       },
     });
 
